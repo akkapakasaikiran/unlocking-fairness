@@ -6,8 +6,8 @@ Title: Unlocking Fairness: a Trade-off Revisited
 
 Astract: The prevailing wisdom is that a model’s fairness and its accuracy are in tension
 with one another. However, there is a pernicious modeling-evaluating dualism
-bedeviling fair machine learning in which phenomena such as label bias are ap-
-propriately acknowledged as a source of unfairness when designing fair models,
+bedeviling fair machine learning in which phenomena such as label bias are appropriately
+acknowledged as a source of unfairness when designing fair models,
 only to be tacitly abandoned when evaluating them. We investigate fairness and
 accuracy, but this time under a variety of controlled conditions in which we vary the
 amount and type of bias. We find, under reasonable assumptions, that the tension
@@ -16,8 +16,8 @@ these phenomena during evaluation. Moreover, our results are consistent with an
 opposing conclusion: fairness and accuracy are sometimes in accord. This raises
 the question, might there be a way to harness fairness to improve accuracy after
 all? Since many notions of fairness are with respect to the model’s predictions
-and not the ground truth labels, this provides an opportunity to see if we can im-
-prove accuracy by harnessing appropriate notions of fairness over large quantities
+and not the ground truth labels, this provides an opportunity to see if we can improve
+accuracy by harnessing appropriate notions of fairness over large quantities
 of unlabeled data with techniques like posterior regularization and generalized
 expectation. We find that semi-supervision improves both accuracy and fairness
 while imparting beneficial properties of the unlabeled data on the classifier.
