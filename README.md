@@ -1,10 +1,10 @@
-# Unlocking Fairness: A paper presentation
+# Unlocking Fairness: A Paper Presentation
 
-This is a presentation I made for [CS689](https://sites.google.com/site/harishguruprasad/teaching/topics-in-ml-iitb-aug-2021), a course I took in my final year at IITB. 
+[This](https://akkapakasaikiran.github.io/unlocking-fairness/) is a paper presentation I made for [CS689](https://sites.google.com/site/harishguruprasad/teaching/topics-in-ml-iitb-aug-2021) (*Machine Learning: Theory and Methods*), an amazing course I took in my final year (Autumn 2021) at IITB. It was offerred by Prof. [Harish](https://sites.google.com/site/harishguruprasad/home) Guruprasad Ramaswamy, who was visiting IITB for a semester.
 
-Title: Unlocking Fairness: a Trade-off Revisited
+**Title:** Unlocking Fairness: a Trade-off Revisited [[link](https://papers.nips.cc/paper/2019/hash/373e4c5d8edfa8b74fd4b6791d0cf6dc-Abstract.html)]
 
-Astract: The prevailing wisdom is that a model’s fairness and its accuracy are in tension
+**Astract:** The prevailing wisdom is that a model’s fairness and its accuracy are in tension
 with one another. However, there is a pernicious modeling-evaluating dualism
 bedeviling fair machine learning in which phenomena such as label bias are appropriately
 acknowledged as a source of unfairness when designing fair models,
@@ -21,15 +21,3 @@ accuracy by harnessing appropriate notions of fairness over large quantities
 of unlabeled data with techniques like posterior regularization and generalized
 expectation. We find that semi-supervision improves both accuracy and fairness
 while imparting beneficial properties of the unlabeled data on the classifier.
-
-You can find the paper [here](https://papers.nips.cc/paper/2019/hash/373e4c5d8edfa8b74fd4b6791d0cf6dc-Abstract.html).
-
-## Credits
-
-* [Hakim El-Hattab](https://twitter.com/hakimel) for the simple awesome [Reveal.js](https://github.com/hakimel/reveal.js)
-* [Martino Mensio](https://twitter.com/MartinoMensio) for his guide on how to use Reveal.js as a Git submodule in [this](https://martinomensio.medium.com/how-to-host-reveal-js-slides-on-github-pages-and-have-a-tidy-repository-1a363944c38d) blog post
-
-## License
-
-* MIT Licensed as per Reveal.js itself
-
